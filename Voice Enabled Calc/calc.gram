@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar calc;
+
+public <numbers>= ( one | two | three | four | five | six | seven  | nine | zero | point );
+public <operation>= ( add | minus | divide | multiply | change sign | equals);
+public <res>= (log | log ten | pie | square root | sound );
+public <trigno>= (sine | cos | tan | cosic | kau sack | sec | cot);
+public <clear>= ( clear | delete );
+public <exit>= ( exit );
+public <stop>=( stop );
